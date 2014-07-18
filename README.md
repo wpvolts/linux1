@@ -62,7 +62,7 @@ linux基本命令使用
     0.50
 
 ###bc结合管道的用法：###
-
+        
     [tiger@liufofu ~]$ echo 1+1 | bc
     2
 
@@ -89,3 +89,10 @@ linux基本命令使用
     This is free software with ABSOLUTELY NO WARRANTY.
     For details type `warranty’.
     3
+
+echo 批量处理
+------
+
+###创建一个txt并且把字符串输入进去###
+
+    echo “hello word” >input/f2.txt
